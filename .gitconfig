@@ -7,6 +7,11 @@
 [core]
   excludesfile = ~/.gitignore
   attributesfile = ~/.gitattributes
+[color "status"]
+  added = green
+  changed = yellow
+  untracked = magenta
+  deleted = red
 [color "branch"]
   current = yellow reverse
   local = yellow
