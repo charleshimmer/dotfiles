@@ -1,6 +1,8 @@
 [alias]
   df = diff --color --color-words --abbrev
-  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(
+  s = status
+  yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
   save = !sh -c 'export PREV=$(git symbolic-ref HEAD|cut -d/ -f3-) && git checkout -b "$1" && git commit -am "$1" && git checkout "$PREV"' - # used like 'git save <branch>'
 [color]
   ui = always
@@ -16,10 +18,6 @@
   frag = magenta bold
   old = red bold
   new = green bold
-[color "status"]
-  added = yellow
-  changed = green
-  untracked = cyan
 [merge]
   log = true
 [url "git@github.com:"]
@@ -36,7 +34,7 @@
   insteadOf = "gist:"
 
 [user]
-  name = Brian Fryer
-  email = brian.fryer@evsr.com
+  name = Charles Himmer
+  email = charles.himmer@evsr.com
 [push]
   default = simple

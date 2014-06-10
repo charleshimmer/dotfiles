@@ -3,15 +3,15 @@ sh bootstrap.sh
 
 # Install rvm
 # https://rvm.io
-curl -L https://get.rvm.io | bash -s stable --ruby
+# curl -L https://get.rvm.io | bash -s stable --ruby
 
 # Install nvm
 # https://github.com/creationix/nvm
-curl https://raw.github.com/creationix/nvm/master/install.sh | sh
+# curl https://raw.github.com/creationix/nvm/master/install.sh | sh
 
 # Install homebrew
 # https://brew.sh
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+# ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 # Install brews
 sh ~/.brew
