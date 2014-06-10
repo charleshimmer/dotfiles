@@ -7,22 +7,22 @@ function installcask() {
 }
 
 # Install dev tools
-installcask vagrant
-installcask virtualbox
-installcask sublime-text
-installcask iterm2
+#installcask vagrant
+#installcask virtualbox
+#installcask sublime-text
+#installcask iterm2
 
 # Install browsers & utilities
-installcask google-chrome
+#installcask google-chrome
 installcask google-hangouts
 installcask firefox
-installcask dashlane
+#installcask dashlane
 
 # Install Mac apps & utilities
-installcask dropbox
-installcask totalfinder
+#installcask dropbox
+#installcask totalfinder
 installcask bartender
-installcask divvy
+#installcask divvy
 installcask licecap
 installcask shortcat
 installcask screenhero

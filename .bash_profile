@@ -13,9 +13,6 @@ unset file
 source ~/.rvm/scripts/rvm
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-# init nvm
-source ~/.nvm/nvm.sh
-
 # Case-insensitive globbing (used in pathname expansion)
 shopt -s nocaseglob
 

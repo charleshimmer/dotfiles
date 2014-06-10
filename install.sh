@@ -14,7 +14,7 @@ sh bootstrap.sh
 # ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 
 # Install brews
-sh ~/.brew
+# sh ~/.brew
 # Install casks
 sh ~/.cask
 # Set san defaults for OSX
@@ -29,6 +29,6 @@ sudo easy_install Pygments
 
 # Install z
 # https://github.com/rupa/z
-cd ~/dotfiles/z
+cd ~/Code/dotfiles/z
 git clone https://github.com/rupa/z.git
-chmod +x ~/dotfiles/z/z.sh
+chmod +x ~/Code/dotfiles/z/z.sh
